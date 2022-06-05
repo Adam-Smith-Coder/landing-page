@@ -10,7 +10,7 @@ body{
 }
 
 .header {
-    padding: 10px 200px;
+    padding: 0px 200px 10px;
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -21,12 +21,12 @@ body{
     display: flex;
     list-style-type: none;
     padding: 0;
-    margin: 0; 
+    margin: 5px 0px 0px; 
     gap: 16px;
-    align-items: center;
 }
 
 .header p {
+    margin-top: 5px;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -35,4 +35,51 @@ body{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.start-content {
+    padding: 50px 200px 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.intro-message,
+.image-box {
+    width: 600px;
+    height: auto;
+}
+
+.intro-message p {
+    width: 50%;
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro-message h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.button {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 70px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.image-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: #e5e7eb;
 }
