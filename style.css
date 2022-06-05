@@ -1,4 +1,4 @@
-* { border: 1px solid black; }
+* { border: 1px solid rgb(0, 0, 0); }
 
 html {
     height: 100vh;
@@ -10,40 +10,17 @@ body{
 }
 
 .header {
-    width: 100%;
-    height: auto;
+    padding: 25px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
 }
 
-.header-logo,
-.header-links,
-.header-text,
-.header-img {
+.header-top-line {
     display: flex;
-    width: 40%;
-    height: auto;
-    margin: auto;
 }
 
-.header-logo, 
-.header-text {
-    margin-left: 10em;
-}
-
-.header-links,
-.header-img {
-    margin-right: 10em;
-}
-
-.header-links {
-    justify-content: flex-end;
-}
-
-.header-text {
-    flex-direction: column;
-    align-items: flex-start;
+.header-second-line {
+    display: flex;
 }
 
 ul {
