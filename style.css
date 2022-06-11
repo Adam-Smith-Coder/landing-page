@@ -115,3 +115,26 @@ body{
 .body-info {
     max-width: 200px;
 }
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 40px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    width: 20em;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: flex-end;
+    width: 45em;
+    font-weight: bold;
+}
