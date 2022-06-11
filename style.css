@@ -8,6 +8,7 @@ body{
     height: auto;
     min-height: 100vh;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -180,4 +181,15 @@ body{
 
 .action-button .button {
     border: 1px solid #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 35px;
+}
+
+.footer-text {
+    color:#e5e7eb;
 }
