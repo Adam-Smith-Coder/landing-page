@@ -7,6 +7,7 @@ html {
 body{
     height: auto;
     min-height: 100vh;
+    margin: 0;
 }
 
 .header {
@@ -71,9 +72,11 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #3882f6;
-    width: 70px;
+    width: auto;
     color: #e5e7eb;
     font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 15px;
 }
 
 .image-box {
@@ -137,4 +140,44 @@ body{
     justify-content: flex-end;
     width: 45em;
     font-weight: bold;
+}
+
+.action-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.action-content {
+    display: flex;
+    padding: 40px 70px;
+    gap: 60px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 45em;
+    justify-content: space-evenly;
+}
+
+.action-text {
+    color: #e5e7eb;
+}
+
+.action-headline {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.act-smalltext {
+    font-size: 14px;
+}
+
+.action-button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-button .button {
+    border: 1px solid #ffffff;
 }
