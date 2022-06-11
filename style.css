@@ -84,3 +84,34 @@ body{
     background-color: grey;
     color: #e5e7eb;
 }
+
+.body-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.body-content {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.info-img {
+    height: 100px;
+    padding: 32px;
+    margin-bottom: 2px;
+    border: 3px solid #3882f6;
+    border-radius: 25px;
+}
+
+.body-content p {
+    margin-top: 0px;
+}
+.body-info {
+    max-width: 200px;
+}
